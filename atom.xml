@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-11-11T13:03:16.046Z</updated>
+  <updated>2021-11-11T15:43:19.077Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://example.com/2021/11/11/TyPora+Gitee+Picgo%E8%88%92%E9%80%82%E5%86%99%E7%AC%94%E8%AE%B0/"/>
     <id>http://example.com/2021/11/11/TyPora+Gitee+Picgo%E8%88%92%E9%80%82%E5%86%99%E7%AC%94%E8%AE%B0/</id>
     <published>2021-11-11T11:16:20.000Z</published>
-    <updated>2021-11-11T13:03:16.046Z</updated>
+    <updated>2021-11-11T15:43:19.077Z</updated>
     
     <content type="html"><![CDATA[<h1 id="Gitee仓库"><a href="#Gitee仓库" class="headerlink" title="Gitee仓库"></a>Gitee仓库</h1><ul><li><p>登录 Gitee 官网，点击新建仓库</p></li><li><p>输入仓库名称，<strong>选择公开（坑）</strong>,点击创建</p></li></ul><p>示例如下图</p><p><img src="https://gitee.com/oujinjins/imagebed/raw/master/image/image-20211111204602888.png" alt="image-20211111204602888"></p><ul><li>进入gitee个人设置创建私人令牌</li></ul><p><img src="https://gitee.com/oujinjins/imagebed/raw/master/image/image-20211111204816518.png" alt="image-20211111204816518"></p><ul><li>权限只选择图中两个即可</li></ul><img src="https://gitee.com/oujinjins/imagebed/raw/master/image/image-20211111205103101.png" alt="image-20211111205103101" style="zoom: 67%;"> <h1 id="安装配置"><a href="#安装配置" class="headerlink" title="安装配置"></a>安装配置</h1><p><code>PicGo</code> 是一款开源的用于快速上传图片并获取图片<code>URL</code>链接的工具</p><ul><li><strong><a href="https://link.zhihu.com/?target=https://picgo.github.io/PicGo-Doc/">说明文档</a></strong></li><li><strong><a href="https://link.zhihu.com/?target=https://github.com/Molunerfinn/">下载链接</a></strong></li></ul><p>安装完成后打开主界面进行插件配置</p><p>如果在左边「图床设置」下面没有看到<code>Gitee</code>选项，那么需要你自己安装插件</p><p><strong>在左「插件设置」选项中，搜索<code>Gitee</code>即可出现对应的插件，点击安装即可</strong></p><p><strong>安装成功后边可以看到对应图床设置了，打开「Gitee图床」配置一些仓库信息和 token</strong></p><p><img src="https://gitee.com/oujinjins/imagebed/raw/master/image/image-20211111205032741.png" alt="image-20211111205032741"></p><p>填写说明</p><ul><li>owner:仓库持有者，填写你 <code>Gitee</code>用户名即可;</li><li>repo: 仓库名称，填写你在创建图床时的仓库名字，这里注意带上你的用户名哈，比如我的是<code>devstone/ImageBed</code>;</li><li>path: 填写仓库下面某个文件夹名字，也就是你存放图片的位置，比如我的是在<code>images</code>,这个名字要和你仓库中创建的对应哈；</li><li>token: 这个比较重要，就是上面创建仓库后创建的私人令牌明文，直接粘贴上去就行，如果忘记了那么直接删除重新再创建了</li><li>message：这个不用填写也行</li></ul><p>最后「确认」后直接就可以使用了，记得点击下「设置为默认图床」</p><h1 id="Typora-配置"><a href="#Typora-配置" class="headerlink" title="Typora 配置"></a>Typora 配置</h1><p>接下来可以在 <code>Typora</code>中接入我们的图床了。</p><ul><li><p>打开<code>Typora</code>，找到<code>偏好设置</code></p><img src="https://gitee.com/oujinjins/imagebed/raw/master/image/20201216221310291.png" alt="在这里插入图片描述" style="zoom: 80%;"></li><li><p>进行如下配置</p><p><img src="https://gitee.com/oujinjins/imagebed/raw/master/image/20201216222009920.png" alt="在这里插入图片描述"></p></li><li><p>最后检验图床对接是否成功，点击 “<code>验证图片上传选项</code>” ，成功就会显示获取成功。</p></li></ul><h1 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h1><p><code>PicGo</code> 上传图片有两种方式</p><ul><li>拖拽到主界面上传区域</li><li>使用快捷键上传剪贴板图片，后者效率更高更方便</li></ul><p><code>Typora</code>记录笔记时可直接将截图的图片粘贴入笔记中，会自动上传</p><h1 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h1><ul><li>gitee大于1M的图片无法load(待解决)</li></ul>]]></content>
     
